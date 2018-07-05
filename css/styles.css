@@ -1,0 +1,76 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+nav {
+    background-color: antiquewhite;
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .2em;
+    font-family: "Ariel", "Helvetica", sans-serif;
+}
+
+nav a {
+    margin: .2em 1em 0 1em;
+    color: darkgoldenrod;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.wrapper {
+    background-color: white;
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.img-hero {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color: aqua;
+}
+
+main {
+    flex: 2;
+    margin: 1em;
+}
+
+aside {
+    flex: 1;
+    margin: 1em;
+}
+
+footer {
+    background-color: pink;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: goldenrod;
+}
