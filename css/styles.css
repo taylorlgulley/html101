@@ -55,6 +55,18 @@ h1 {
     background-color: aqua;
 }
 
+.flex-item {
+    background-color: azure;
+    width: 30%;
+    margin: 1em;
+    text-align: center;
+}
+
+.section-img {
+    margin: 0 auto;
+    width: 100%;
+}
+
 main {
     flex: 2;
     margin: 1em;
